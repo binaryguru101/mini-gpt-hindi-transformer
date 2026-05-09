@@ -4,25 +4,8 @@ A decoder-only Transformer (GPT-style) implemented from scratch in PyTorch for H
 
 This project implements a simplified GPT-2 style architecture featuring masked multi-head self-attention, autoregressive text generation, and downstream text classification using a shared Transformer backbone.
 
----
 
-## Features
-
-- Decoder-only Transformer architecture
-- Masked multi-head self-attention
-- Scaled dot-product attention
-- Positional and token embeddings
-- Feedforward neural networks with residual connections
-- Autoregressive next-token prediction
-- Hindi text generation
-- Sentiment classification using shared GPT backbone
-- Custom subword tokenizer using BPE / SentencePiece
-
----
-
-## Tasks Completed
-
-### Task 1 — Data Preprocessing
+###  Data Preprocessing
 
 - Hindi corpus preprocessing
 - Training and validation split generation
@@ -36,7 +19,7 @@ This project implements a simplified GPT-2 style architecture featuring masked m
 
 ---
 
-### Task 2 — Decoder-Only Transformer & Next Word Prediction
+### Decoder Only Transformer & Next Word Prediction
 
 Implemented a simplified GPT-2 style autoregressive language model including:
 
@@ -56,7 +39,7 @@ A text generation function was implemented to autoregressively generate Hindi te
 
 ---
 
-### Task 3 — Text Classification
+### Text Classification
 
 A classification head was attached to the pretrained GPT backbone for sentiment analysis.
 
